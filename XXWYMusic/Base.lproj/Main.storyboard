@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11185.3" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="MTf-hq-uIF">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11151.4"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--我的音乐-->
+        <scene sceneID="5b4-Ve-bUd">
+            <objects>
+                <viewController id="Ush-zJ-cIA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LVU-bI-Nv6"/>
+                        <viewControllerLayoutGuide type="bottom" id="vMg-Nc-U3F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lKj-EZ-McL">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我的音乐" image="cm2_btm_icn_music" selectedImage="cm2_btm_icn_music_prs" id="94o-sj-OvZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ssV-gF-Rau" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="930" y="-15"/>
+        </scene>
+        <!--朋友-->
+        <scene sceneID="GgM-wu-MxH">
+            <objects>
+                <viewController id="38n-yS-eL2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JpF-Yc-bdM"/>
+                        <viewControllerLayoutGuide type="bottom" id="vR0-lp-Xkf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AQ1-0q-IHd">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="朋友" image="cm2_btm_icn_friend" selectedImage="cm2_btm_icn_friend_prs" id="PoK-T3-Jjf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tDR-mI-g3A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="142" y="699"/>
+        </scene>
+        <!--账号-->
+        <scene sceneID="KHQ-by-Ubm">
+            <objects>
+                <viewController id="4PO-tf-SuU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8Ez-PA-jdb"/>
+                        <viewControllerLayoutGuide type="bottom" id="LlS-PC-sIC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uxG-Ae-XY8">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="账号" image="cm2_btm_icn_account" selectedImage="cm2_btm_icn_account_prs" id="lNl-64-QlP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HwA-Kj-AHD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="911" y="699"/>
+        </scene>
+        <!--Music PlayVC-->
+        <scene sceneID="KXJ-TN-Dl3">
+            <objects>
+                <viewController id="tHw-L4-HnQ" customClass="XXMusicPlayVC" customModule="XXWYMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6md-a0-oRE"/>
+                        <viewControllerLayoutGuide type="bottom" id="iPs-eg-nll"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="olI-WF-mc3">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jhq-w1-WIg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dAW-SP-5Hb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-822" y="-741"/>
+        </scene>
+        <!--发现音乐-->
+        <scene sceneID="kUH-KK-7YL">
+            <objects>
+                <viewController id="Qlk-uj-qkp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="skO-4Q-ilf"/>
+                        <viewControllerLayoutGuide type="bottom" id="ukU-qA-63n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Zh-go-NLz">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="发现音乐" image="cm2_btm_icn_discovery" selectedImage="cm2_btm_icn_discovery_prs" id="r3d-3Q-3Oz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ckq-ds-8RR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="142" y="-14"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ELy-4x-ZFE">
+            <objects>
+                <navigationController id="MTf-hq-uIF" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="2g8-aT-B4d">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.80784313725490198" green="0.23921568627450979" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Qy5-V5-Uyd" kind="relationship" relationship="rootViewController" id="O8I-LV-iaH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZAP-bc-R2y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1737" y="-22"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="zhb-4e-f4c">
+            <objects>
+                <tabBarController id="Qy5-V5-Uyd" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="HLO-xE-EVM">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="B1P-NA-ZTR">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LfG-1R-7Gm">
+                                <rect key="frame" x="331" y="8" width="28" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="cm2_topbar_icn_playing"/>
+                                <state key="highlighted" image="cm2_topbar_icn_playing_prs"/>
+                                <connections>
+                                    <segue destination="tHw-L4-HnQ" kind="show" id="HJb-Ep-Nvb"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="cHV-YD-cnZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.2196078431372549" green="0.2196078431372549" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Qlk-uj-qkp" kind="relationship" relationship="viewControllers" id="cxU-BR-0Tk"/>
+                        <segue destination="Ush-zJ-cIA" kind="relationship" relationship="viewControllers" id="67E-U0-8P5"/>
+                        <segue destination="38n-yS-eL2" kind="relationship" relationship="viewControllers" id="Sas-Bf-wJU"/>
+                        <segue destination="4PO-tf-SuU" kind="relationship" relationship="viewControllers" id="LSo-n9-ws3"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QQV-4E-kdl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-785" y="-15"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cm2_btm_icn_account" width="28" height="28"/>
+        <image name="cm2_btm_icn_account_prs" width="28" height="28"/>
+        <image name="cm2_btm_icn_discovery" width="28" height="28"/>
+        <image name="cm2_btm_icn_discovery_prs" width="28" height="28"/>
+        <image name="cm2_btm_icn_friend" width="28" height="28"/>
+        <image name="cm2_btm_icn_friend_prs" width="28" height="28"/>
+        <image name="cm2_btm_icn_music" width="28" height="28"/>
+        <image name="cm2_btm_icn_music_prs" width="28" height="28"/>
+        <image name="cm2_topbar_icn_playing" width="28" height="28"/>
+        <image name="cm2_topbar_icn_playing_prs" width="28" height="28"/>
+    </resources>
+</document>
