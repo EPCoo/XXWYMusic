@@ -8,7 +8,7 @@
 
 import UIKit
 
-class XXMusicPlayVC: UIViewController {
+class XXMusicPlayVC: UIViewController,UIGestureRecognizerDelegate {
 
     override func loadView() {
         super.loadView()
@@ -21,12 +21,13 @@ class XXMusicPlayVC: UIViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.interactivePopGestureRecognizer?.delegate = id<UIAccelerometerDelegate> self
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
         
         self.navigationController?.view.sendSubview(toBack: (self.navigationController?.navigationBar)!)
     }
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
         self.navigationController?.view.bringSubview(toFront: (self.navigationController?.navigationBar)!)
     }
     override func didReceiveMemoryWarning() {
